@@ -4,10 +4,10 @@
 #include <dt-bindings/zmk/outputs.h>
 
 
-#define QWTY 0  // Qwerty
-#define DVRK 1  // Dvorak
-#define NAVS 2  // Navigation and Numpad
-#define SYMB 3  // Symbols
+#define QWTY 0  /* Qwerty */
+#define DVRK 1  /* Dvorak */
+#define NAVS 2  /* Navigation and Numpad */
+#define SYMB 3  /* Symbols */
 
 / {
   keymap {
