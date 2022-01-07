@@ -22,9 +22,9 @@
     &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &none      &kp PG_DN  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
     &kp LCTRL  &kp LBKT   &kp RBKT   &mo NAVS   &kp LALT                                               &mo SYMB   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT
                                                            &kp HOME   &kp END    &kp PSCRN  &kp INS 
-                                                                      &kp LGUI   &kp PGDN
+                                                                      &kp LGUI   &kp C_VOLUME_UP 
                                                 &kp BSPC   &kp DEL                          &kp RET   &kp SPC
-                                                                      &mo SYMB   &kp RALT
+                                                                      &mo SYMB   &kp C_VOLUME_DOWN 
       >;
     };
 
