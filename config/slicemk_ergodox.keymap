@@ -13,22 +13,6 @@
   keymap {
     compatible = "zmk,keymap";
 
-//    qwerty {
-//      bindings = <
-//    &bootloader
-//    &kp GRAV   &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp CAPS   &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS  &kp EQUAL
-//    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &tog DVRK  &kp PG_UP  &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
-//    &kp ESC    &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT 
-//    &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &none      &kp PG_DN  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
-//
-//    &none      &none      &kp LALT   &kp LARW   &kp DARW                                               &kp UARW   &kp RARW   &kp RALT   &none      &none
-//                                                           &kp DEL    &kp HOME   &kp END    &kp INS
-//                                                                      &kp PGUP   &kp PGDN
-//                                                &kp SPC    &kp LCTL                         &kp LSFT   &kp RET
-//                                                                      &kp LGUI   &mo 1
-//      >;
-//    };
-
     qwerty {
       bindings = <
     &bootloader
