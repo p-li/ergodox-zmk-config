@@ -50,7 +50,7 @@
     &trans     &none      &kp UP     &none      &none      &none      &none      &none      &none      &kp KP_N7  &kp KP_N8  &kp KP_N9  &none      &none
     &kp LGUI   &kp LEFT   &kp DOWN   &kp RIGHT  &none      &none                            &none      &kp KP_N4  &kp KP_N5  &kp KP_N6  &none      &none
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &kp KP_N1  &kp KP_N2  &kp KP_N3  &none      &none
-    &none      &none      &none      &none      &none                                                  &none      &none      &none      &none      &none
+    &none      &none      &none      &none      &LGUI                                                  &none      &none      &none      &none      &none
                                                            &none      &none      &none      &none
                                                                       &none      &none
                                                 &none      &none                            &trans     &kp KP_N0
@@ -61,15 +61,15 @@
     symb {
       bindings = <
     &bootloader
-    &bt BT_CLR   &trans     &trans     &trans     &trans     &trans     &trans    &trans     &trans     &trans     &trans     &trans     &trans       &trans 
-    &out OUT_USB &none      &none      &none      &none      &none      &none     &none      &kp Y      &none      &none      &none      &bt BT_SEL 0 &bt BT_SEL 1
-    &out OUT_BLE &kp LBRC   &kp RBRC   &kp LBKT   &kp RBKT   &none                           &kp H      &kp J      &kp K      &kp L      &none        &bt BT_SEL 2
-    &none        &none      &none      &none      &none      &none      &none     &none      &none      &none      &none      &none      &none        &bt BT_SEL 3
-    &out OUT_TOG &none      &none      &none      &none                                                 &none      &none      &none      &none        &bt BT_SEL 4
-                                                             &none      &none     &none      &none
-                                                                        &none     &none
-                                                  &none      &none                           &none      &none
-                                                                        &none     &none
+    &bt BT_CLR   &trans         &trans       &trans        &trans     &trans     &trans    &trans     &trans     &trans     &trans     &trans     &trans       &trans 
+    &kp TAB      &out OUT_USB   &out OUT_BLE &out OUT_TOG  &none      &none      &none     &none      &kp Y      &none      &none      &none      &bt BT_SEL 0 &bt BT_SEL 1
+    &none        &kp LBRC       &kp RBRC     &kp LBKT      &kp RBKT   &none                           &kp H      &kp J      &kp K      &kp L      &kp SEMI     &bt BT_SEL 2
+    &kp LSHIFT   &none          &none        &none         &none      &none      &none     &none      &none      &none      &none      &none      &none        &bt BT_SEL 3
+    &kp LCTRL    &none          &none        &LGUI         &kp LALT                                              &none      &none      &none      &none        &bt BT_SEL 4
+                                                                      &none      &none      &none     &none
+                                                                                 &none      &none
+                                                           &none      &none                           &none      &none
+                                                                                 &none      &none
       >;
     };
 
